@@ -23,6 +23,11 @@ document.getElementById("add-money-btn").addEventListener('click', function (e) 
           const totalNewAvailableBalance = amount + availableBalance;
     // console.log(totalNewAvailableBalance)
          document.getElementById("available-balance").innerText = totalNewAvailableBalance;
+
+         document.getElementById('add-amount').value = '';
+         document.getElementById('account-number').value = '';
+         document.getElementById('add-pin').value = '';
+         document.getElementById("bank").value = '';
     
 
   
